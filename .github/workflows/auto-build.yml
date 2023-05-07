@@ -14,5 +14,5 @@ jobs:
     - name: Build with Maven
       run: |
         cd roman-number/ 
-        mvn -B install --file pom.xml
+        mvn -B install --file pom.xml --log-file README.md
         
